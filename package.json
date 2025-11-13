@@ -1,0 +1,16 @@
+{
+  "name": "simulador-so",
+  "version": "",
+  "description": "Simulador de memoria",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["simulador", "memoria", "particiones"],
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
