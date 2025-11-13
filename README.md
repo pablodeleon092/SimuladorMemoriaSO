@@ -46,7 +46,7 @@ Requisitos:
     ```
 3.  Instalar los modulos necesarios
    
-   ```bash
+    ```bash
      npm install
     ```
 4. iniciar servidor
