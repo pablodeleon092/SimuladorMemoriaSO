@@ -1,8 +1,8 @@
 # Simulador de Gestión de Memoria Dinámica 
 
-Este es un proyecto web interactivo que simula y visualiza algoritmos clásicos de asignación de memoria dinámica (Particiones Variables). Permite a los usuarios cargar una lista de procesos, configurar los parámetros de la simulación y ver en tiempo real cómo se gestiona la memoria.
+El presente proyecto web interactivo que simula y visualiza algoritmos clásicos de asignación de memoria dinámica (Particiones Variables). Permite a los usuarios cargar una lista de procesos, configurar los parámetros de la simulación y ver en tiempo real cómo se gestiona la memoria.
 
-El presente es un desarrollo enmarcado en trabajo práctico integrador para la cátedra sistemas operativos.
+El desarrollo se encuentra enmarcado en trabajo práctico integrador para la cátedra sistemas operativos.
 
 
 
@@ -46,13 +46,13 @@ Requisitos:
     ```
 3.  Instalar los modulos necesarios
    
-```bash
-    npm install
+   ```bash
+     npm install
     ```
 4. iniciar servidor
   ```bash
     node index.js
-    ```
+  ```
 
 ---
 
@@ -75,19 +75,20 @@ Para cargar los procesos, el simulador espera un archivo `.json` con un array de
   {
     "nombre": "P1",
     "tiempo_arribo": 0,
-    "duracion": 10,
-    "memoria_requerida": 100
+    "duracion": 8,
+    "memoria_requerida": 200
   },
   {
     "nombre": "P2",
-    "tiempo_arribo": 2,
-    "duracion": 5,
-    "memoria_requerida": 50
+    "tiempo_arribo": 1,
+    "duracion": 4,
+    "memoria_requerida": 95
   },
   {
     "nombre": "P3",
-    "tiempo_arribo": 4,
-    "duracion": 8,
-    "memoria_requerida": 200
+    "tiempo_arribo": 2,
+    "duracion": 5,
+    "memoria_requerida": 150
   }
 ]
+
